@@ -4,12 +4,12 @@ import CoT
 
 ATAK_IP = os.getenv('ATAK_IP', '10.0.0.104')
 ATAK_PORT = int(os.getenv('ATAK_PORT', '4242'))
-ATAK_PROTO = os.getenv('ATAK_PROTO', 'UDP')
+ATAK_PROTO = os.getenv('ATAK_PROTO', 'TCP')
 
 params = {  # SWX parking lot
     "lat": 38.8892687,
     "lon": -77.0518607,
-    "uid": "Nerd Herd",
+    "uid": "MSRS",
     "identity": "hostile",
     "dimension": "land-unit",
     "entity": "military",
